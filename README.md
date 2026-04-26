@@ -11,6 +11,8 @@ CampusConnect is a modern web application that combines:
 - **Task Management**: Assign and track completion of various tasks
 - **Analytics Dashboard**: Comprehensive analytics for administrators
 
+- video link : https://youtu.be/p9kbahsMNh0
+
 ## 🏗️ Architecture
 
 ```
