@@ -1,0 +1,36 @@
+{
+  "name": "campusconnect",
+  "version": "1.0.0",
+  "description": "CampusConnect - Platform for managing campus ambassadors and analyzing GitHub profiles",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "campus",
+    "ambassador",
+    "github",
+    "analysis",
+    "gamification",
+    "education"
+  ],
+  "author": "CampusConnect Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/campusconnect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-repo/campusconnect/issues"
+  },
+  "homepage": "https://github.com/your-repo/campusconnect#readme"
+}
